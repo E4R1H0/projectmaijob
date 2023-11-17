@@ -72,9 +72,9 @@ naive_bayes_model = MultinomialNB()
 naive_bayes_model.fit(train_bow, y_train)
 
 
-from sklearn.metrics import confusion_matrix,classification_report
-predictions_nb = naive_bayes_model.predict(test_bow)
-test_bow = cvec.transform(X_test['text_tokens'])
+#from sklearn.metrics import confusion_matrix,classification_report
+#predictions_nb = naive_bayes_model.predict(test_bow)
+#test_bow = cvec.transform(X_test['text_tokens'])
 ##print(classification_report(predictions_nb, y_test))
 
 
@@ -83,7 +83,7 @@ my_text=st.text_area("กรุณาป้อนความคิดเห็�
 if st.button("วิเคราะห์ความคิดเห็น"):
     my_tokens = text_process(my_text)
     my_bow = cvec.transform(pd.Series([my_tokens]))
-    my_predictions = lr.predict(my_bow)
+    my_predictions = naive_bayes_model.predict(my_bow)
     my_predictions  
     
     st.button("ไม่วิเคราะห์ความคิดเห็น")
