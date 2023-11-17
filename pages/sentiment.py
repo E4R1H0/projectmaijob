@@ -45,7 +45,7 @@ plt.show()
 
 st.header("Negative ")
 #import matplotlib as mpl
-df_neg = dftext[dftext[1] == 'neg']
+df_neg = dftext[dftext['sentiment'] == 'neg']
 neg_word_all = " ".join(text for text in df_neg['text_tokens'])
 wordcloud2 = WordCloud(stopwords=thai_stopwords, background_color = 'white', max_words=2000, height = 2000, width=4000, font_path=fp, regexp=reg).generate(neg_word_all)
 fg2=plt.figure(figsize = (30,8))
