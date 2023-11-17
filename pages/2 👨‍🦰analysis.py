@@ -40,9 +40,10 @@ pd.DataFrame(train_bow.toarray(), columns=cvec.get_feature_names_out(), index=X_
 from sklearn.naive_bayes import MultinomialNB
 naive_bayes_model = MultinomialNB()
 naive_bayes_model.fit(train_bow, y_train)
-predictions_nb = naive_bayes_model.predict(test_bow)
+
 
 from sklearn.metrics import confusion_matrix,classification_report
+predictions_nb = naive_bayes_model.predict(test_bow)
 test_bow = cvec.transform(X_test['text_tokens'])
 ##print(classification_report(predictions_nb, y_test))
 
