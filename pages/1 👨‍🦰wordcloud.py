@@ -11,7 +11,7 @@ import pickle
 
 df = pd.read_csv('./samsungreview.csv')
 dftext=pd.DataFrame(df)
-st.bar_chart(dftext['sentiment'].value_counts())
+#st.bar_chart(dftext['sentiment'].value_counts())
 thai_stopwords = list(thai_stopwords())
 #st.write(thai_stopwords)
 
