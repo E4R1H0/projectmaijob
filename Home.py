@@ -12,7 +12,7 @@ def load_lottieurl(url: str):
     return r.json()
 
 
-st.header("การวิเคราะห์ความรู้สึกภาษาไทย💯💯💯")
+st.header("การวิเคราะห์ความรู้สึก(Sentiment Analysis)💯💯💯")
 st.subheader("Nonthakan Jarpun 🐻 DATA SCIENCE NPRU")
 
 col1, col2 = st.columns(2)
