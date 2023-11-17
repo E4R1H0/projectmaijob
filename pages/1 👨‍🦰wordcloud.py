@@ -9,13 +9,9 @@ import matplotlib.pyplot as plt
 import pickle
 
 
-column_names=["text"]
-# Add header row while reading a CSV file
-df = pd.read_csv('./test.csv', names=column_names)
-df2=df['text'].str.split(pat="\t",expand=True)
-dftext=pd.DataFrame(df2)
-dftext=dftext.iloc[:,0:2]
-st.bar_chart(dftext[1].value_counts())
+df = pd.read_csv('./samsungreview.csv')
+dftext=pd.DataFrame(df)
+st.bar_chart(dftext['sentiment'].value_counts())
 thai_stopwords = list(thai_stopwords())
 #st.write(thai_stopwords)
 
@@ -27,9 +23,9 @@ def text_process(text):
                      if word.lower not in thai_stopwords)
     return final
 
-dftext['text_tokens'] = dftext[0].apply(text_process)
+dftext['text_tokens'] = dftext['text'].apply(text_process)
 
-df_pos = dftext[dftext[1] == 'pos']
+df_pos = dftext[dftext['sentiment'] == 'pos']
 pos_word_all = " ".join(text for text in df_pos['text_tokens'])
 #st.write(pos_word_all)
 
@@ -48,7 +44,7 @@ plt.show()
 
 st.header("Negative ")
 #import matplotlib as mpl
-df_neg = dftext[dftext[1] == 'neg']
+df_neg = dftext[dftext['sentiment'] == 'neg']
 neg_word_all = " ".join(text for text in df_neg['text_tokens'])
 wordcloud2 = WordCloud(stopwords=thai_stopwords, background_color = 'white', max_words=2000, height = 2000, width=4000, font_path=fp, regexp=reg).generate(neg_word_all)
 fg2=plt.figure(figsize = (30,8))
