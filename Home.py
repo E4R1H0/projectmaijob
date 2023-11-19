@@ -11,6 +11,10 @@ def load_lottieurl(url: str):
         return None
     return r.json()
 
+st.write("__________________________________________________")
+st.header("การวิเคราะห์ความรู้สึก(Sentiment Analysis)")
+st.subheader("Nonthakan Jarpun 🐻 DATA SCIENCE NPRU")
+st.write("__________________________________________________")
 
 
 
@@ -18,11 +22,6 @@ col1, col2= st.columns(2)
 with col1:
     st.image('./pic/earth.jpg')
 with col2:
-    st.write("__________________________________________________")
-    st.header("การวิเคราะห์ความรู้สึก(Sentiment Analysis)")
-    st.subheader("Nonthakan Jarpun 🐻 DATA SCIENCE NPRU")
-    st.write("__________________________________________________")
-    
     st.image('./pic/DS1.jpg')
 st.balloons()
 
