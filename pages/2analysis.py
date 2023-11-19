@@ -12,7 +12,7 @@ df = pd.read_csv('./samsungreview.csv')
 dftext=pd.DataFrame(df)
 
 html_1 = """
-<div style="background-color:#363062;padding:5px;margin-bottom:20;:border-radius:3px;border-bottom: 4px solid #ffffff;border-top: 4px solid #ffffff;">
+<div style="background-color:#363062;padding:5px;margin-bottom:20px;border-radius:3px;border-bottom: 4px solid #ffffff;border-top: 4px solid #ffffff;">
 <center><h3 style="text-align: left;">กราฟเปรียบเทียบความคิดเห็น</h3></center>
 </div>
 """
