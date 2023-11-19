@@ -24,15 +24,6 @@ st.markdown("")
 #st.subheader("Nonthakan Jarpun 🐻 DATA SCIENCE NPRU")
 #st.write("__________________________________________________")
 
-col1, col2,col3= st.columns(3)
-with col1:
-    st.write("")
-with col2:
-    st.image('./1.png')
-with col3:
-    st.write("")
-st.balloons()
-
 html_2 = """
 <div style="background-color:#363062;">
 <center><h4>บทคัดย่อ</h4></center>
