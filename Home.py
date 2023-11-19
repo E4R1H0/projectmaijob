@@ -34,10 +34,10 @@ with col2:
 st.balloons()
 
 
-html_1 = """
+html_2 = """
 <div style="background-color:#363062;padding:5px;border-radius:3px;border-bottom: 4px solid #ffffff;border-top: 4px solid #ffffff;">
 <center><h4>บทคัดย่อ</h4><h5>Abstract</h5></center>
 </div>
 """
-st.markdown(html_1, unsafe_allow_html=True)
+st.markdown(html_2, unsafe_allow_html=True)
 st.markdown("")
