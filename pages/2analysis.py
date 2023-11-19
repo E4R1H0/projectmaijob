@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 
 df = pd.read_csv('./samsungreview.csv')
 dftext=pd.DataFrame(df)
-st.header("กราฟเปรียบเทียบความคิดเห็นเป็นบวกหรือลบ")
+st.header("กราฟเปรียบเทียบความคิดเห็น")
 st.bar_chart(dftext['sentiment'].value_counts())
 thai_stopwords = list(thai_stopwords())
 #st.write(thai_stopwords)
