@@ -23,14 +23,6 @@ st.markdown("")
 #st.header("การวิเคราะห์ความรู้สึก(Sentiment Analysis)")
 #st.subheader("Nonthakan Jarpun 🐻 DATA SCIENCE NPRU")
 #st.write("__________________________________________________")
-html_2 = """
-<div style="background-color:#363062;">
-<center><h4>บทคัดย่อ</h4><h5></h5><h4>Abstract</h4></center>
-</div>
-"""
-st.markdown(html_2, unsafe_allow_html=True)
-st.markdown("")
-
 
 col1, col2= st.columns(2)
 with col1:
@@ -38,6 +30,12 @@ with col1:
 with col2:
     st.image('./pic/DS1.jpg')
 st.balloons()
-
+html_2 = """
+<div style="background-color:#363062;">
+<center><h4>บทคัดย่อ</h4><h5></h5><h4>Abstract</h4></center>
+</div>
+"""
+st.markdown(html_2, unsafe_allow_html=True)
+st.markdown("")
 
 
