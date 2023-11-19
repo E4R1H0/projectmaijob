@@ -38,7 +38,6 @@ html_3 = """
 ผลการทดลอง เทคนิคที่ให้ประสิทธิภาพสูงสุดคือ Naive Bayes ให้ค่า94% รองลงมาคือ Logistic Regression ให้ค่า89%สุดท้ายคือเทคนิค Support  Vector  Machines  (SVM)ให้ค่า 84%
 สรุปผลเทคนิคที่ให้ประสิทธิภาพที่ดีที่สุดคือNaive Bayesเนื่องจากให้ค่า accuracy สูงที่สุด
 </h5></center>
-<center><h4 style="text-indent: 60%;">Nonthakan Jarpun 64/44 004</h4></center>
 </div>
 """
 st.markdown(html_3, unsafe_allow_html=True)
