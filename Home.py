@@ -11,10 +11,10 @@ def load_lottieurl(url: str):
         return None
     return r.json()
 
-st.subheader("----------------------------------------")
+st.subheader("__________________________________________________")
 st.header("การวิเคราะห์ความรู้สึก(Sentiment Analysis)")
 st.subheader("Nonthakan Jarpun 🐻 DATA SCIENCE NPRU")
-st.subheader("----------------------------------------")
+st.subheader("__________________________________________________")
 
 
 
