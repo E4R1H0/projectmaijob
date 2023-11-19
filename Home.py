@@ -17,7 +17,7 @@ html_1="""
 <center><h1>การวิเคราะห์ความรู้สึก(Sentiment Analysis)</h1></center>
 </div>
 """
-st.markdown(html_1,unsafe_allow_html=true)
+st.markdown(html_1, unsafe_allow_html=True)
 st.markdown("")
 
 #st.header("การวิเคราะห์ความรู้สึก(Sentiment Analysis)")
