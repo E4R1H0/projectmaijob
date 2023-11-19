@@ -24,8 +24,8 @@ st.markdown("")
 #st.subheader("Nonthakan Jarpun 🐻 DATA SCIENCE NPRU")
 #st.write("__________________________________________________")
 html_2 = """
-<div style="background-color:#363062;padding:5px;border-radius:3px;border-bottom: 4px solid #ffffff;border-top: 4px solid #ffffff;">
-<center><h4>บทคัดย่อ</h4><h5>Abstract</h5></center>
+<div style="background-color:#363062;">
+<center><h4>บทคัดย่อ</h4><h5></h5><h4>Abstract</h4></center>
 </div>
 """
 st.markdown(html_2, unsafe_allow_html=True)
