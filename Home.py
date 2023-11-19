@@ -44,7 +44,7 @@ st.markdown(html_3, unsafe_allow_html=True)
 st.markdown("")
 
 html_4 = """
-<div style="background-color:#0E1117;border-top: 3px solid #ffffff;">
+<div style="background-color:#363062;border-top: 3px solid #ffffff;">
 <center><h4 style="text-indent: 60%;">Nonthakan Jarpun 64/44 004</h4></center>
 </div>
 """
