@@ -19,8 +19,8 @@ st.subheader("Nonthakan Jarpun 🐻 DATA SCIENCE NPRU")
 
 col1, col2 = st.columns(2)
 with col1:
-    st.image('./pic/earth.jpg', width=100, height=100)
+    st.image('./pic/earth.jpg')
 with col2:
-    st.image('./pic/DS1.jpg', width=100, height=100)
+    st.image('./pic/DS1.jpg')
 st.balloons()
 
