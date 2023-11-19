@@ -15,11 +15,7 @@ def load_lottieurl(url: str):
 st.header("การวิเคราะห์ความรู้สึก(Sentiment Analysis)")
 st.subheader("Nonthakan Jarpun 🐻 DATA SCIENCE NPRU")
 
-#col1, col2 = st.columns(2)
-#with col1:
-#   st.image('./pic/earth.jpg',width=col1.width * 0.5)
-#with col2:
-#    st.image('./pic/DS1.jpg',width=col2.width * 0.5)
+
 
 col1, col2 = st.columns(2)
 with col1:
