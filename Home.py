@@ -13,8 +13,8 @@ def load_lottieurl(url: str):
 
 
 html_1="""
-<div style="border-radius:5px;border-style:'solid';border-color:#ffffff,height=3px;">
-<center><h1>การวิเคราะห์ความรู้สึก(Sentiment Analysis)</h1></center>
+<div style="background-color:#363062;border-radius:5px;border-style:'solid';border-color:#ffffff,height=3px;">
+<center><h>การวิเคราะห์ความรู้สึก(Sentiment Analysis)</h2></center>
 </div>
 """
 st.markdown(html_1, unsafe_allow_html=True)
