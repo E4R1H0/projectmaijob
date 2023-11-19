@@ -12,9 +12,9 @@ def load_lottieurl(url: str):
     return r.json()
 
 
-html_1="""
-<div style="background-color:#363062;border-radius:5px;border-style:'solid';border-color:#ffffff,height=3px;">
-<center><h>การวิเคราะห์ความรู้สึก(Sentiment Analysis)</h2></center>
+html_1 = """
+<div style="background-color:#0E1117;padding:5px;border-radius:5px;border-bottom: 5px solid #ffffff;border-top: 5px solid #ffffff;">
+<center><h4>การวิเคราะห์ความรู้สึกของลูกค้าร้านSamsung Thailand</h4><h5>Sentiment Analysis of customers of Samsung Thailand store</h5></center>
 </div>
 """
 st.markdown(html_1, unsafe_allow_html=True)
