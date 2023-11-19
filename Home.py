@@ -21,7 +21,7 @@ col1, col2,col3 = st.columns(3)
 with col1:
     st.image('./pic/earth.jpg')
 with col2:
-    st.write("------")
+    st.write("  ")
 with col3:
     st.image('./pic/DS1.jpg')
 st.balloons()
