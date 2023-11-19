@@ -58,12 +58,12 @@ naive_bayes_model.fit(train_bow, y_train)
 
 my_text=st.text_area("กรุณาป้อนความคิดเห็นสำหรับใช้ในการวิเคราะห์")
 
-if st.button("วิเคราะห์ความคิดเห็น",style={"color": "#ff0000", "font-weight": "bold"}):
+if st.button("วิเคราะห์ความคิดเห็น"):
     my_tokens = text_process(my_text)
     my_bow = cvec.transform(pd.Series([my_tokens]))
     my_predictions = naive_bayes_model.predict(my_bow)
     my_predictions  
     
-    st.button("ไม่วิเคราะห์ความคิดเห็น",style={"color": "#ff0000", "font-weight": "bold"})
+    st.button("ไม่วิเคราะห์ความคิดเห็น")
 else:
     st.button("ไม่วิเคราะห์ความคิดเห็น")
