@@ -13,7 +13,7 @@ def load_lottieurl(url: str):
 
 
 html_1 = """
-<div style="background-color:#363062;padding:5px;border-radius:3px;border-bottom: 4px solid #ffffff;border-top: 4px solid #ffffff;">
+<div style="background-color:#363062;padding:5px;border-radius:3px;border-bottom: 4px double #ffffff;border-top: 4px solid #ffffff;">
 <center><h4>การวิเคราะห์ความรู้สึกของลูกค้าร้านSamsung Thailand</h4><h5>Sentiment Analysis of customers of Samsung Thailand store</h5></center>
 </div>
 """
@@ -30,9 +30,10 @@ with col1:
 with col2:
     st.image('./pic/DS1.jpg')
 st.balloons()
+
 html_2 = """
 <div style="background-color:#363062;">
-<center><h4>บทคัดย่อ</h4><h5></h5><h4>Abstract</h4></center>
+<center><h4>บทคัดย่อ</h4></center>
 </div>
 """
 st.markdown(html_2, unsafe_allow_html=True)
