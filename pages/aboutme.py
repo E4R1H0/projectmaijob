@@ -14,8 +14,7 @@ def load_lottieurl(url: str):
 
 html_1 = """
 <div style="background-color:#363062;padding:5px;border-radius:3px;border-bottom: 4px solid #ffffff;border-top: 4px solid #ffffff;">
-<center><h4>นายนนทกานต์ จ่าพันธุ์ 644285004 64/44</h4><h5>สาขาวิทยาการข้อมูล    คณะวิทยาศาสตร์และเทคโนโลยี     
-มหาวิทยาลัยราชภัฏนครปฐม</h5></center>
+<center><h4>นายนนทกานต์ จ่าพันธุ์ 644285004 64/44</h4><h5>สาขาวิทยาการข้อมูล\tคณะวิทยาศาสตร์และเทคโนโลยี\nมหาวิทยาลัยราชภัฏนครปฐม</h5></center>
 </div>
 """
 st.markdown(html_1, unsafe_allow_html=True)
