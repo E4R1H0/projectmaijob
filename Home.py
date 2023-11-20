@@ -24,13 +24,6 @@ st.markdown("")
 #st.subheader("Nonthakan Jarpun 🐻 DATA SCIENCE NPRU")
 #st.write("__________________________________________________")
 
-html_2 = """
-<div style="background-color:#363062;">
-<center><h4>บทคัดย่อ</h4></center>
-</div>
-"""
-st.markdown(html_2, unsafe_allow_html=True)
-st.markdown("")
 
 html_3 = """
 <div style="background-color:#363062;padding:25px;border-radius:15px; border: 2px solid #ffffff;">
@@ -53,4 +46,19 @@ html_4 = """
 </div>
 """
 st.markdown(html_4, unsafe_allow_html=True)
+st.markdown("")
+
+html_2 = """
+<div style="background-color:#363062;padding:25px;border-radius:15px; border: 2px solid #ffffff;">
+<center><h5>Customer sentiment analysis is an important process for businesses and services to understand and respond to customer needs effectively. Understanding customer sentiment can be beneficial in many ways that can help businesses grow and create customer satisfaction.
+The problem with customer sentiment analysis is that it comes from the large amount of data from customer reviews and ratings. This is too much data that can make it difficult to extract the important from the unimportant. Sentiment classification may be delayed in responding to customer needs, and service improvements may not be up-to-date with customer needs.
+The researcher saw the importance of customer sentiment analysis and found a way to solve the problem of delayed sentiment analysis. Therefore, they used an efficient and fast method to solve the problem of being able to improve products or services in time with customer needs. The researcher conducted an experiment to classify data using 3 sentiment analysis techniques: 1. Logistic Regression 2. Naive Bayes 3. Support Vector Machines (SVM) with the Samsung review dataset. The data consists of 210 rows, 2 columns, and 2 classes.
+The results of the experiment, the technique that gave the highest performance was Naive Bayes, giving a value of 94%, followed by Logistic Regression, giving a value of 89%. Finally, the Support Vector Machines (SVM) technique gave a value of 84%.
+In conclusion, the technique that gives the best performance is Naive Bayes because it gives the highest accuracy.
+
+
+</h5></center>
+</div>
+"""
+st.markdown(html_2, unsafe_allow_html=True)
 st.markdown("")
