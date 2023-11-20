@@ -40,13 +40,7 @@ Naive Bayesเนื่องจากให้ค่า accuracy สูงท�
 st.markdown(html_3, unsafe_allow_html=True)
 st.markdown("")
 
-html_4 = """
-<div style="background-color:#363062;">
-<center><h5 style="text-indent: 50%;">Nonthakan Jarpun 64/44 004</h5></center>
-</div>
-"""
-st.markdown(html_4, unsafe_allow_html=True)
-st.markdown("")
+
 
 html_2 = """
 <div style="background-color:#363062;padding:25px;border-radius:15px; border: 2px solid #ffffff;">
@@ -61,4 +55,12 @@ In conclusion, the technique that gives the best performance is Naive Bayes beca
 </div>
 """
 st.markdown(html_2, unsafe_allow_html=True)
+st.markdown("")
+
+html_4 = """
+<div style="background-color:#363062;">
+<center><h5 style="text-indent: 50%;">Nonthakan Jarpun 64/44 004</h5></center>
+</div>
+"""
+st.markdown(html_4, unsafe_allow_html=True)
 st.markdown("")
