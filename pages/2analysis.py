@@ -8,6 +8,7 @@ from wordcloud import WordCloud, STOPWORDS
 import matplotlib.pyplot as plt
 
 
+
 df = pd.read_csv('./samsungreview.csv')
 dftext=pd.DataFrame(df)
 
@@ -41,7 +42,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_
 from sklearn.feature_extraction.text import CountVectorizer
 cvec = CountVectorizer(analyzer=lambda x:x.split(' '))
 cvec.fit_transform(X_train['text_tokens'])
-#cvec.vocabulary_
+st.write(cvec.vocabulary_)
 
 train_bow = cvec.transform(X_train['text_tokens'])
 pd.DataFrame(train_bow.toarray(), columns=cvec.get_feature_names_out(), index=X_train['text_tokens'])
