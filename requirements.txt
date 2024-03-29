@@ -6,6 +6,5 @@ pandas
 pythainlp
 scikit-learn
 wordcloud
-sklearn
 streamlit_lottie
 scikit-learn
